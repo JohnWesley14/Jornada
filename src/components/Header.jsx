@@ -7,7 +7,7 @@ export default function Header() {
   }, []);
   return (
     <div
-      className="w-full flex justify-between py-10 pl-10 h-5 md:w-[90%]"
+      className="w-full flex justify-between py-10 pl-10 h-5 max-md:w-[90%]"
       data-aos="fade-down"
       data-aos-offset="200"
       data-aos-duration="1000"
